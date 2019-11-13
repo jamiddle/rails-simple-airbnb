@@ -1,0 +1,89 @@
+// Place all the styles related to the flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.card {
+  width: 30%;
+  height: 550px;
+  text-align: left;
+  margin: 20px;
+  box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 50px;
+}
+
+.text {
+  padding: 0px 30px 10px 30px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.price {
+  margin-right: 63px;
+  border-radius: 5px;
+}
+
+.link {
+  background-color: white;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 100%;
+  font-size: 20px;
+}
+
+#name {
+  font-family: 'Muli', sans-serif;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  margin-left: 65px;
+  margin-bottom: 10px;
+  font-family: 'Muli', sans-serif;
+  font-size: 40px;
+}
+
+i {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+a:hover {
+  color: gray;
+}
